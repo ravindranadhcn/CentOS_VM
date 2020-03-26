@@ -13,8 +13,8 @@ Vagrant.configure("2") do |config|
     ansible.playbook = "provision.yaml"
   end
   config.vm.provider :libvirt do |v|
-    v.memory = 2056
-    v.cpus = 2
+    v.memory = 1024
+    v.cpus = 1
     end
   end
 end

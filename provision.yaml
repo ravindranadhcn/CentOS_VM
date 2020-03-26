@@ -10,4 +10,4 @@
 
   - name: Install Basic packages
     package:
-      name: ['vim', 'zip', 'bash-completion', 'wget', 'tmux','net-tools']
+      name: ['vim', 'zip', 'bash-completion', 'wget', 'tmux']
